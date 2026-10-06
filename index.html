@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportz Sneakers</title>
+    <link rel="stylesheet" href="landing.css">
+    <script>
+        
+        if (localStorage.getItem('tema') === 'dark') {
+            document.documentElement.classList.add('dark-pre');
+        }
+    </script>
+</head>
+
+<body>
+
+    
+    <header>
+        <h2 class="logo">Sportz Sneakers</h2>
+        <button id="botao-tema" class="botao-tema">
+            <span class="icone sol">☀️</span>
+            <span class="icone lua">🌙</span>
+        </button>
+    </header>
+
+    <section class="banner" id="inicio">
+        <div class="banner-texto">
+
+            <h1>Performance começa pelos seus pés.</h1>
+
+            <p>
+                Os melhores tênis esportivos para corrida,
+                academia, caminhada e estilo.
+            </p>
+
+            <a href="#produtos" class="botao">
+                Ver Coleção
+            </a>
+
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div>
+
+            <img src="tenisvermelho.jpg" alt="Tênis">
+
+        </div>
+
+        <div>
+
+            <h2>Quem Somos</h2>
+
+            <p>
+                A Sportz Sneakers nasceu em 2015 em Minas Gerais,
+                fundada por atletas apaixonados pelo esporte.
+            </p>
+
+            <p>
+                Nossa missão sempre foi oferecer tênis de alta
+                performance para melhorar o desempenho esportivo.
+            </p>
+
+            <p>
+                Hoje atendemos todo o Brasil trabalhando apenas
+                com produtos originais das maiores marcas mundiais.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="vantagens">
+        <h2>Nossos Diferenciais</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="mapa.png">
+
+                <h3>Produtos Originais</h3>
+
+                <p>Somente marcas oficiais.</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="moto.png">
+
+                <h3>Entrega Rápida</h3>
+
+                <p>Todo o Brasil.</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="bike.png">
+
+                <h3>Atendimento</h3>
+
+                <p>Especialistas para ajudar.</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="calendario.png">
+
+                <h3>Alta Performance</h3>
+
+                <p>Tecnologia esportiva.</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+
+        <h2>Produtos em Destaque</h2>
+
+        <div class="grid-produtos">
+
+            <div class="produto">
+
+                <img src="tenis_nike_preto.png">
+
+                <h3>Nike Air Max</h3>
+
+                <p>Conforto e desempenho.</p>
+
+                <button>Comprar</button>
+
+            </div>
+
+            <div class="produto">
+
+                <img src="tenis_nike_branco.png">
+
+                <h3>Adidas Ultraboost</h3>
+
+                <p>Máximo amortecimento.</p>
+
+                <button>Comprar</button>
+
+            </div>
+
+            <div class="produto">
+
+                <img src="tenis_puma.png">
+
+                <h3>Puma Velocity</h3>
+
+                <p>Leveza e estabilidade.</p>
+
+                <button>Comprar</button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="clientes">
+
+        <h2>Clientes Satisfeitos</h2>
+
+        <div class="depoimentos">
+
+            <div>
+
+                <img src="rosto_1.jpg">
+
+                <p>
+                    ★★★★★
+
+                    <br><br>
+
+                    "Melhor loja de tênis que já comprei."
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="rosto_2.jpg">
+
+                <p>
+                    ★★★★★
+
+                    <br><br>
+
+                    "Entrega muito rápida."
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="rosto_3.jpg">
+
+                <p>
+                    ★★★★★
+
+                    <br><br>
+
+                    "Qualidade excelente."
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="cta">
+
+        <h2>
+            Pronto para elevar sua performance?
+        </h2>
+
+        <p>Escolha agora seu próximo tênis esportivo.</p>
+
+        <a href="#produtos">
+            Comprar Agora
+        </a>
+
+    </section>
+
+    <footer id="contato">
+
+        <h3>Sportz Sneakers</h3>
+
+        <p>Desde 2015 conectando atletas aos melhores tênis do mercado.</p>
+
+        <p>contato@sportzsneakers.com</p>
+
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
